@@ -1,0 +1,33 @@
+CREATE TABLE [zzz].[TM_cust_attribute_20180131]
+(
+[cust_name_id] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[attrib_id] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[attrib_name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[category] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[attrib_value] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[attrib_comment] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[acct_id] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[primary_cust_name_id] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[cust_name_primary_code] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[rel_code] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_prefix1] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_prefix2] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_first] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_middle] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_last] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_suffix] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_title] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[company_name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[nick_name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[maiden_name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[salutation] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[name_last_first_mi] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[full_name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[picture_file_name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[acct_type] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[acct_type_desc] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[rec_status_name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[SourceFileName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[LoadDate] [datetime] NULL
+)
+GO

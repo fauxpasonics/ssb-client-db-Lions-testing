@@ -1,0 +1,3 @@
+CREATE SCHEMA [lions]
+AUTHORIZATION [dbo]
+GO
